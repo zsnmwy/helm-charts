@@ -11,4 +11,26 @@ entries:
     urls:
     - https://github.com/gocrane/helm-charts/releases/download/cost-exporter-0.1.0/cost-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2022-01-12T13:29:42.51449731Z"
+  craned:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-01-14T07:11:58.590795165Z"
+    description: A Helm chart for craned
+    digest: bfd671c1ede857433a6f6a75d11fb06bbfac4c6257b3bd06198ff84232a74f9a
+    name: craned
+    type: application
+    urls:
+    - https://github.com/gocrane/helm-charts/releases/download/craned-0.1.0/craned-0.1.0.tgz
+    version: 0.1.0
+  metric-adapter:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-01-14T07:11:58.706418461Z"
+    description: A Helm chart for metric-adapter
+    digest: b55331f51cdadb7afba9790215af48aadfb505b699e7da2d21db0c81208f12ea
+    name: metric-adapter
+    type: application
+    urls:
+    - https://github.com/gocrane/helm-charts/releases/download/metric-adapter-0.1.0/metric-adapter-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-01-14T07:11:58.706424161Z"
