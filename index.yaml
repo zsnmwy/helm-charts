@@ -11,6 +11,28 @@ entries:
     urls:
     - https://github.com/gocrane/helm-charts/releases/download/cost-exporter-0.1.0/cost-exporter-0.1.0.tgz
     version: 0.1.0
+  crane:
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2022-01-28T02:06:35.338359376Z"
+    description: A Helm chart for Crane
+    digest: 4a7278c279f4c679cca9ab0decac1392555301acf4495acaf1fa08f0f0decc8b
+    home: https://github.com/gocrane/crane
+    icon: https://github.com/gocrane/crane/blob/main/docs/images/crane.png
+    keywords:
+    - kubernetes
+    - finops
+    - autoscaling
+    - hpa
+    - vpa
+    - resources
+    name: crane
+    sources:
+    - https://github.com/gocrane/crane
+    type: application
+    urls:
+    - https://github.com/gocrane/helm-charts/releases/download/crane-0.1.0/crane-0.1.0.tgz
+    version: 0.1.0
   craned:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -33,4 +55,4 @@ entries:
     urls:
     - https://github.com/gocrane/helm-charts/releases/download/metric-adapter-0.1.0/metric-adapter-0.1.0.tgz
     version: 0.1.0
-generated: "2022-01-14T07:11:58.706424161Z"
+generated: "2022-01-28T02:06:35.338370076Z"
