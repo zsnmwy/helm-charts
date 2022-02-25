@@ -13,6 +13,27 @@ entries:
     version: 0.1.0
   crane:
   - apiVersion: v2
+    appVersion: v0.2.0
+    created: "2022-02-25T06:39:52.528166935Z"
+    description: A Helm chart for Crane
+    digest: eb027c24d96fcd256bcebddd83b5a2db451227e90df4a3b1938e6eae85c3db33
+    home: https://github.com/gocrane/crane
+    icon: https://github.com/gocrane/crane/blob/main/docs/images/crane.png
+    keywords:
+    - kubernetes
+    - finops
+    - autoscaling
+    - hpa
+    - vpa
+    - resources
+    name: crane
+    sources:
+    - https://github.com/gocrane/crane
+    type: application
+    urls:
+    - https://github.com/gocrane/helm-charts/releases/download/crane-0.2.0/crane-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: v0.1.0
     created: "2022-01-28T02:06:35.338359376Z"
     description: A Helm chart for Crane
@@ -44,6 +65,28 @@ entries:
     urls:
     - https://github.com/gocrane/helm-charts/releases/download/craned-0.1.0/craned-0.1.0.tgz
     version: 0.1.0
+  fadvisor:
+  - apiVersion: v2
+    appVersion: v0.2.0
+    created: "2022-02-25T06:39:52.731945435Z"
+    description: A Helm chart for crane fadvisor
+    digest: 2c2eb912473e15a1c4faf7fd0760cba33bb440011f8fdd47d3ffdfc570f5849b
+    home: https://github.com/gocrane/fadvisor
+    icon: https://github.com/gocrane/fadvisor/blob/main/docs/images/fadvisor.png
+    keywords:
+    - kubernetes
+    - finops
+    - cost-insighting
+    - resources
+    - cost-visualization
+    - cost-breakdown
+    name: fadvisor
+    sources:
+    - https://github.com/gocrane/fadvisor
+    type: application
+    urls:
+    - https://github.com/gocrane/helm-charts/releases/download/fadvisor-0.2.0/fadvisor-0.2.0.tgz
+    version: 0.2.0
   metric-adapter:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -55,4 +98,4 @@ entries:
     urls:
     - https://github.com/gocrane/helm-charts/releases/download/metric-adapter-0.1.0/metric-adapter-0.1.0.tgz
     version: 0.1.0
-generated: "2022-01-28T02:06:35.338370076Z"
+generated: "2022-02-25T06:39:52.731954435Z"
