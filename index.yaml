@@ -13,6 +13,27 @@ entries:
     version: 0.1.0
   crane:
   - apiVersion: v2
+    appVersion: v0.3.0
+    created: "2022-03-24T14:17:16.102821597Z"
+    description: A Helm chart for Crane
+    digest: c22dbfea5318a4eec1b57aa3a4a8e6ae96bb3bcd30ed4105dfba5885475593f8
+    home: https://github.com/gocrane/crane
+    icon: https://github.com/gocrane/crane/blob/main/docs/images/crane.png
+    keywords:
+    - kubernetes
+    - finops
+    - autoscaling
+    - hpa
+    - vpa
+    - resources
+    name: crane
+    sources:
+    - https://github.com/gocrane/crane
+    type: application
+    urls:
+    - https://github.com/gocrane/helm-charts/releases/download/crane-0.3.0/crane-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     appVersion: v0.2.0
     created: "2022-02-25T06:39:52.528166935Z"
     description: A Helm chart for Crane
@@ -98,4 +119,4 @@ entries:
     urls:
     - https://github.com/gocrane/helm-charts/releases/download/metric-adapter-0.1.0/metric-adapter-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-25T06:39:52.731954435Z"
+generated: "2022-03-24T14:17:16.316743948Z"
